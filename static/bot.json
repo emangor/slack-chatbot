@@ -1,0 +1,91 @@
+[
+    {
+        "keywords": [
+            "help"
+        ],
+        "params": {
+            "icon_emoji": ":robot_face:"
+        },
+        "returnmessage": "To navigate Erik's review tag `@erik_review` and ask some questions, here is a some keywords to try: \n\n> JIRA\n\n> Loyalty Rewards\n\n> CN Video \n\n> How can Erik improve? \n\n> How can the team improve?"
+    },
+    {
+        "keywords": [
+            "jira", "ticket", "bug", "issue"
+        ],
+        "params": {
+            "icon_emoji": ":robot_face:"
+        },
+        "returnmessage": "Erik closed 97 JIRA tickets in 2017 :white_check_mark:"
+    },
+    {
+        "keywords": [
+            "loyalty", "rewards"
+        ],
+        "params": {
+            "icon_emoji": ":robot_face:",
+            "attachments": [{
+                "title": "CN Loyalty Rewards",
+                "image_url": "http://i.emangor.com/images/work/cartoon-loyalty.jpg"
+            }]
+        },
+        "returnmessage": "Erik architected and developed the new Loyalty Rewards API for the Cartoon Network App. This feature tracks user visits and returns a promocode to redeem a free app if the user fulfills the business rules."
+    },
+    {
+        "keywords": [
+            "cn video", "cn app", "cartoon", "video"
+        ],
+        "params": {
+            "icon_emoji": ":robot_face:",
+            "attachments": [{
+                "title": "Cartoon Network App",
+                "image_url": "http://i.emangor.com/images/work/cartoon-app.jpg"
+            }]
+        },
+        "returnmessage": "Erik solved CN Video API and Video Ingestion load issues by implementing database pooling on both applications. Erik also supported the launch of multiple new platforms and features. He is currently working on new calls for a major redesign for the app."
+    },
+    {
+        "keywords": [
+            "awesome", "good", "great", "cool", "well"
+        ],
+        "params": {
+            "icon_emoji": ":robot_face:"
+        },
+        "returnmessage": "Erik developed an API for a new Cartoon Network feature. He also corrected load problems on CN Video API. type `@erik_review loyalty rewards` or `@erik_review cn video` to find out more."
+    },
+    {
+        "keywords": [
+            "jerk", "dick", "bad", "fired", "demoted", "terrible", "dumb", "idiot", "flu"
+        ],
+        "params": {
+            "icon_emoji": ":robot_face:"
+        },
+        "returnmessage": "Wow, that sounds uncalled for. You should ask some others what they think of working with Erik for a second opinion."
+    },
+    {
+        "keywords": [
+            "lol"
+        ],
+        "params": {
+            "icon_emoji": ":robot_face:"
+        },
+        "returnmessage": "lmao :lol:"
+    },
+    {
+        "keywords": [
+            "team", "group"
+        ],
+        "params": {
+            "icon_emoji": ":robot_face:"
+        },
+        "returnmessage": "The MSS team attached to Cartoon in the future should develop more prototypes based on Cartoon's ideas. We could contribute a lot more to what we create by taking initiative based on the client's loose ideas and presenting them. It would make us more of a partner with the business and a leader in techonology."
+    },    
+    {
+        "keywords": [
+            "improve", "better", "enhance", "advance", "elevate", "refine", "progress"
+        ],
+        "params": {
+            "icon_emoji": ":robot_face:"
+        },
+        "returnmessage": "Erik could have created a JavaScript style guide for other developers in the group. I think it would benefit everyone to follow better coding standards especially with JavaScript being loosely typed."
+    }
+]
