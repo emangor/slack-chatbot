@@ -13,6 +13,11 @@ app.listen(config.port, function () {
     logger.info(`server listening on port: ${config.port}`);
 });
 
+if (config.slack.token === '' && config.slack.botName === ''){
+    logger.error('missing token and botname');
+    return false;
+}
+
 //default values
 const botData = require('./static/bot.json');
 const groupName = config.slack.groupName;
