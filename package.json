@@ -1,7 +1,7 @@
 {
   "name": "slack-chatbot",
   "description": "Erik Mangor Review - 2017",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Erik Mangor",
   "dependencies": {
     "body-parser": "1.17.2",

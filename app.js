@@ -38,6 +38,11 @@ bot.on('start', function() {
     logger.info('Bot has connected');
 });
 
+//error listener
+bot.on('error', function(err) {
+    logger.error(err);
+});
+
 // listen for messages
 bot.on('message', function(data) {
     if (typeof data.channel != 'undefined' && data.channel == config.slack.channel 
